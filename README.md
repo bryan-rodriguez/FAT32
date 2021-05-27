@@ -1,11 +1,13 @@
 # FAT32
 C program that allows the user to read FAT32 disk images
 
-Commands include
+PLEASE SEE THE RAW README.md TO SEE PARAMETERS
+
+Commands include:
 
 stat <filename> or <directory name>
-This command shall print the attributes and starting cluster number of the file or directory name.  If the parameter is a directory name then the size shall be 0. If the file or
-directory does not exist then your program shall output “Error: File not found”.
+  This command shall print the attributes and starting cluster number of the file or directory name.  If the parameter is a directory name then the size shall be 0. If the file or
+  directory does not exist then your program shall output “Error: File not found”.
   
 get <filename>
   This command shall retrieve the file from the FAT 32 image and place it in your current working directory.   If the file or directory does not exist then the
